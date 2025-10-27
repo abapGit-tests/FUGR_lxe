@@ -14,87 +14,6 @@
      <SHORT_TEXT>check input</SHORT_TEXT>
     </item>
    </FUNCTIONS>
-   <LXE_TEXTS>
-    <item>
-     <SOURCE_LANG>enUS</SOURCE_LANG>
-     <TARGET_LANG>deDE</TARGET_LANG>
-     <CUSTMNR>999999</CUSTMNR>
-     <OBJTYPE>FNC1</OBJTYPE>
-     <OBJNAME>Z_LANGUAGE_CHECK_INPUT        Z_FUNCTION_GROUP_SCREENS</OBJNAME>
-     <TEXT_PAIRS>
-      <LXE_PCX_S1>
-       <TEXTKEY>TFTIT     00001</TEXTKEY>
-       <S_TEXT>check input</S_TEXT>
-       <UNITMLT>74</UNITMLT>
-      </LXE_PCX_S1>
-     </TEXT_PAIRS>
-    </item>
-    <item>
-     <SOURCE_LANG>enUS</SOURCE_LANG>
-     <TARGET_LANG>deDE</TARGET_LANG>
-     <CUSTMNR>999999</CUSTMNR>
-     <OBJTYPE>LBT1</OBJTYPE>
-     <OBJNAME>Z_FUNCTION_GROUP_SCREENS</OBJNAME>
-     <TEXT_PAIRS>
-      <LXE_PCX_S1>
-       <TEXTKEY>AREAT     00001</TEXTKEY>
-       <S_TEXT>screens</S_TEXT>
-       <UNITMLT>40</UNITMLT>
-      </LXE_PCX_S1>
-     </TEXT_PAIRS>
-    </item>
-    <item>
-     <SOURCE_LANG>enUS</SOURCE_LANG>
-     <TARGET_LANG>deDE</TARGET_LANG>
-     <CUSTMNR>999999</CUSTMNR>
-     <OBJTYPE>RPT1</OBJTYPE>
-     <OBJNAME>Z_FUNCTION_GROUP_SCREENS</OBJNAME>
-     <TEXT_PAIRS>
-      <LXE_PCX_S1>
-       <TEXTKEY>TEXT    XXX            10</TEXTKEY>
-       <S_TEXT>yo</S_TEXT>
-       <T_TEXT>deutsch</T_TEXT>
-       <UNITMLT>10</UNITMLT>
-      </LXE_PCX_S1>
-     </TEXT_PAIRS>
-    </item>
-    <item>
-     <SOURCE_LANG>enUS</SOURCE_LANG>
-     <TARGET_LANG>deDE</TARGET_LANG>
-     <CUSTMNR>999999</CUSTMNR>
-     <OBJTYPE>SRH1</OBJTYPE>
-     <OBJNAME>Z_FUNCTION_GROUP_SCREENS                1904</OBJNAME>
-     <TEXT_PAIRS>
-      <LXE_PCX_S1>
-       <TEXTKEY>DTXT      00001</TEXTKEY>
-       <S_TEXT>input check</S_TEXT>
-       <T_TEXT>Eingabeprüfung</T_TEXT>
-       <UNITMLT>60</UNITMLT>
-      </LXE_PCX_S1>
-     </TEXT_PAIRS>
-    </item>
-    <item>
-     <SOURCE_LANG>enUS</SOURCE_LANG>
-     <TARGET_LANG>deDE</TARGET_LANG>
-     <CUSTMNR>999999</CUSTMNR>
-     <OBJTYPE>SRT1</OBJTYPE>
-     <OBJNAME>Z_FUNCTION_GROUP_SCREENS                1904</OBJNAME>
-     <TEXT_PAIRS>
-      <LXE_PCX_S1>
-       <TEXTKEY>DTXT      00001</TEXTKEY>
-       <S_TEXT>First Line</S_TEXT>
-       <T_TEXT>Erste Zeil</T_TEXT>
-       <UNITMLT>10</UNITMLT>
-      </LXE_PCX_S1>
-      <LXE_PCX_S1>
-       <TEXTKEY>DTXT      00002</TEXTKEY>
-       <S_TEXT>Second!</S_TEXT>
-       <T_TEXT>Zweite!</T_TEXT>
-       <UNITMLT>7</UNITMLT>
-      </LXE_PCX_S1>
-     </TEXT_PAIRS>
-    </item>
-   </LXE_TEXTS>
    <DYNPROS>
     <item>
      <HEADER>
@@ -201,23 +120,6 @@
        <INPUT_FLD>X</INPUT_FLD>
       </RPY_DYFATC>
      </FIELDS>
-     <FLOW_LOGIC>
-      <RPY_DYFLOW>
-       <LINE>PROCESS BEFORE OUTPUT.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>* MODULE STATUS_1904.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>*</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>PROCESS AFTER INPUT.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>* MODULE USER_COMMAND_1904.</LINE>
-      </RPY_DYFLOW>
-     </FLOW_LOGIC>
     </item>
    </DYNPROS>
   </asx:values>
